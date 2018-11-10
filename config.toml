@@ -1,3 +1,33 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ginny Gao"
+baseurl = "http://example.org/"
+theme = "aerial"
+
+[params]
+  name = "Ginny Gao"
+  about = "Data Science &nbsp;&bull;&nbsp; Analytics &nbsp;&bull;&nbsp; Decision Making"
+  #copyright = "Untitled"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+  favicon = "favicon.ico"
+  email = "ginnyssight@gmail.com"
+
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "https://twitter.com/hiqinqin"
+
+[[params.social]]
+  medium = "LinkedIn"
+  icon = "linkedin"
+  link = "http://www.linkedin.com/in/qinqingao"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/ginnyqg"
+
+[[params.social]]
+  medium = "Youtube"
+  icon = "youtube"
+  link = "https://www.youtube.com/channel/UCwWqNT6WMKQSmm1PW9LVNGw"
