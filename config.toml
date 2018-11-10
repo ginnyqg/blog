@@ -31,3 +31,7 @@ theme = "aerial"
   medium = "Youtube"
   icon = "youtube"
   link = "https://www.youtube.com/channel/UCwWqNT6WMKQSmm1PW9LVNGw"
+
+[[params.socialbuttons]]
+	faicon = "email"
+	url = "ginnyssight@gmail.com"
