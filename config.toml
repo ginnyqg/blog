@@ -1,37 +1,123 @@
+# Site settings
+baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Ginny Gao"
-baseurl = "http://example.org/"
-theme = "aerial"
+theme = "hugo-freelancer-theme"
+
 
 [params]
-  name = "Ginny Gao"
-  about = "Data Science &nbsp;&bull;&nbsp; Analytics &nbsp;&bull;&nbsp; Decision Making"
-  #copyright = "Untitled"
-  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = ""
-  favicon = "favicon.ico"
-  email = "ginnyssight@gmail.com"
+    name = "Ginny Gao"
+    description = "Knowledge Enthusiast, Data Scientist"
 
-[[params.social]]
-  medium = "Twitter"
-  icon = "twitter"
-  link = "https://twitter.com/hiqinqin"
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email youself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    email = "ginnyssight@gmail.com"
 
-[[params.social]]
-  medium = "LinkedIn"
-  icon = "linkedin"
-  link = "http://www.linkedin.com/in/qinqingao"
+    # Custom assets
+	custom_css = []
+	custom_js  = []
 
-[[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "https://github.com/ginnyqg"
+    [params.navigation]
+        brand = "Ginny's Site"
 
-[[params.social]]
-  medium = "Youtube"
-  icon = "youtube"
-  link = "https://www.youtube.com/channel/UCwWqNT6WMKQSmm1PW9LVNGw"
 
-[[params.socialbuttons]]
-	faicon = "email"
-	url = "ginnyssight@gmail.com"
+    [params.header]
+        # Copy your own image into './static/img/'' if you wish
+        image = "Profile_pic_cir2.png"
+        name = "Ginny Gao"
+        subtitle = "Data Scientist - Knowledge Enthusiast"
+
+
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Post"
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttontext = "Close"
+
+
+    [params.about]
+        title = "About"
+        # The about text is splitted into a left and right column
+        left = ""
+        right = ""
+
+        [params.about.button]
+            text = " View Resume"
+            link = "//www.dropbox.com/s/10qu72rpf9mmh1j/GGao_Resume.pdf?dl=0"
+            icon = "file-text-o"
+
+
+    [params.contact]
+        title = "Contact"
+
+        # 'error' defines error messages for invalid inputs
+        [params.contact.form.name]
+            text = "Name"
+            error = "Please enter your name."
+
+        [params.contact.form.email]
+            text = "Email Address"
+            error = "Please enter your email address."
+
+        [params.contact.form.phone]
+            text = "Phone Number"
+            error = "Please enter your phone number."
+
+        [params.contact.form.message]
+            text = "Message"
+            error = "Please enter a message."
+
+        [params.contact.form.button]
+            text = "Send"
+
+
+    [params.footer]
+        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+
+        # [params.footer.location]
+        #     title = "Location"
+        #     # Postal address (add as many lines as necessary)
+        #     address = ["New York, NY"]
+
+        [params.footer.social]
+            title = "Around the web"
+            # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+            # for more icons. The icons are represented by their corresponding
+            # CSS class.
+            [[params.footer.social.networks]]
+                icon = "fa-github"
+                link = "//github.com/ginnyqg"
+
+            [[params.footer.social.networks]]
+                icon = "fa-linkedin"
+                link=  "//linkedin.com/in/qinqingao"
+
+            [[params.footer.social.networks]]
+                icon = "fa-twitter"
+                link=  "//twitter.com/hiqinqin"
+
+            [[params.footer.social.networks]]
+                icon = "fa-youtube"
+                link=  "//youtube.com/channel/UCwWqNT6WMKQSmm1PW9LVNGw"
+
+
+
+        # [params.footer.credits]
+        #     title = "About Freelancer"
+        #     text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
