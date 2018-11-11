@@ -6,8 +6,14 @@ theme = "hugo-freelancer-theme"
 
 
 [params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
     name = "Ginny Gao"
-    description = "Knowledge Enthusiast, Data Scientist"
+    description = "Ginny's Site"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -34,7 +40,7 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "Profile_pic_cir2.png"
         name = "Ginny Gao"
-        subtitle = "Data Scientist - Knowledge Enthusiast"
+        subtitle = "Data Scientist - Knowledge Seeker"
 
 
     [params.portfolio]
@@ -58,8 +64,8 @@ theme = "hugo-freelancer-theme"
         right = ""
 
         [params.about.button]
-            text = " View Resume"
-            link = "//www.dropbox.com/s/10qu72rpf9mmh1j/GGao_Resume.pdf?dl=0"
+            text = "View Resume"
+            link = "//dropbox.com/s/10qu72rpf9mmh1j/GGao_Resume.pdf?dl=0"
             icon = "file-text-o"
 
 
@@ -93,7 +99,7 @@ theme = "hugo-freelancer-theme"
         # [params.footer.location]
         #     title = "Location"
         #     # Postal address (add as many lines as necessary)
-        #     address = ["New York, NY"]
+        #     address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
 
         [params.footer.social]
             title = "Around the web"
@@ -115,7 +121,6 @@ theme = "hugo-freelancer-theme"
             [[params.footer.social.networks]]
                 icon = "fa-youtube"
                 link=  "//youtube.com/channel/UCwWqNT6WMKQSmm1PW9LVNGw"
-
 
 
         # [params.footer.credits]
