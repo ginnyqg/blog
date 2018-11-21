@@ -5,6 +5,5 @@ tags: ["Python", "hugo", "Data Viz"]
 draft: false
 description: "Powered by Python"
 ---
-[Dashboard](https://plot.ly/dashboard/ginnyqg:9/present#/)
-
+Enter [Dashboard](https://plot.ly/dashboard/gqgg:10/present)
 
