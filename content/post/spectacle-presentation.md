@@ -5,5 +5,5 @@ tags: ["JS", "React", "hugo"]
 draft: false
 description: "Powered by JavaScript"
 ---
-Enter [Presentation](https://ginnyqg.github.io/spectacle-presentation/#/)
+👉 Enter [Presentation](https://ginnyqg.github.io/spectacle-presentation/#/)
 
