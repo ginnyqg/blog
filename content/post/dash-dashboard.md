@@ -5,5 +5,5 @@ tags: ["Dash", "Plotly", "Python", "Heroku"]
 draft: false
 description: "Dashboard with controls"
 ---
-👉 Enter [Dash Dashboard](https://tech-comp-dash.herokuapp.com/)
+👉 Enter [Dash Dashboard](https://ginnyg-columbiavizd01-techcomp.herokuapp.com/)
 
