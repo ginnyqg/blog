@@ -5,5 +5,7 @@ tags: ["JS", "React", "hugo"]
 draft: false
 description: "Powered by JavaScript"
 ---
-👉 Enter [Presentation](https://ginnyqg.github.io/spectacle-presentation/#/)
+👉 Enter [`Spectacle Presentation`](https://ginnyqg.github.io/spectacle-presentation/#/)
+
+This presentation is created using [Spectacle](https://github.com/FormidableLabs/spectacle), a ReactJS based Presentation Library. It adds more fun and visual elements to a presentation.
 
